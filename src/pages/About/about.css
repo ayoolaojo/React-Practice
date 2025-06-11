@@ -1,0 +1,11 @@
+.about_container {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 150px);
+  justify-content: center;
+}
+
+.about_container p {
+  font-size: 300%;
+  color: #8fa5d4;
+}

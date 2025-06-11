@@ -1,0 +1,12 @@
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 150px);
+  color: #8fa5d4;
+}
+
+.services p {
+  font-size: 300%;
+  font-weight: 700;
+}
