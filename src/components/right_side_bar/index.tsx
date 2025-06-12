@@ -1,4 +1,10 @@
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faGithub,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 
 import("./rightsidebar.css");
 function RightSideBar() {
@@ -6,16 +12,15 @@ function RightSideBar() {
     <div className="rightsidebar">
       <div className="right_sidebar_links">
         <Link to="https://web.facebook.com/ayoojo.johnson/">
-          <img src="../../../facebook-brands.svg" alt="facebook" />
+          <FontAwesomeIcon icon={faFacebook} className="icons" />
         </Link>
 
         <Link to="https://www.linkedin.com/in/ayoola-ojo-42a160196/">
-          {" "}
-          <img src="../../../linkedin-in-brands.svg" alt="linkedin" />{" "}
+          <FontAwesomeIcon icon={faLinkedin} className="icons" />
         </Link>
 
         <Link to="https://github.com/AyoolaOjo">
-          <img src="../../../github-brands.svg" alt="github" />
+          <FontAwesomeIcon icon={faGithub} className="icons" />
         </Link>
       </div>
     </div>

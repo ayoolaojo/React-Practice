@@ -3,9 +3,7 @@ import "./navbar.css";
 // import("../../assets/Ayodev.jpg");
 function NavBar() {
   return (
-    <nav className="navbar">
-      <img src="../../../public/Ayodev.jpg" alt="Ayoola" />
-
+    <nav>
       <ul>
         <li>
           <NavLink

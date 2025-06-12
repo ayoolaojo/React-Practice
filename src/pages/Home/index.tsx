@@ -5,7 +5,7 @@ function Home() {
       <div className="home_container_item" id="home_container_item1">
         <h2>
           I'm a <br />
-          web developer
+          <span style={{ color: "#161CAA" }}>web developer</span>
         </h2>
         <button>VIEW PORTFOLIO</button>
       </div>

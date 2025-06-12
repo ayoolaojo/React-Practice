@@ -1,3 +1,9 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faGithub,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 import { NavLink, Link } from "react-router-dom";
 
 import("../../index.css");
@@ -10,7 +16,6 @@ function LeftSideBar() {
         <h2>Ayoola Ojo</h2>
         <p>frontend developer</p>
       </div>
-
       <ul>
         <li>
           <NavLink
@@ -69,20 +74,19 @@ function LeftSideBar() {
             CONTACTS
           </NavLink>
         </li>
-      </ul>
-
+        <hr />
+      </ul>{" "}
       <div className="social_media">
         <Link to="https://web.facebook.com/ayoojo.johnson/">
-          <img src="../../../facebook-brands.svg" alt="facebook" />
+          <FontAwesomeIcon icon={faLinkedin} className="icons" />
         </Link>
 
         <Link to="https://www.linkedin.com/in/ayoola-ojo-42a160196/">
-          {" "}
-          <img src="../../../linkedin-in-brands.svg" alt="linkedin" />{" "}
+          <FontAwesomeIcon icon={faGithub} className="icons" />
         </Link>
 
         <Link to="https://github.com/AyoolaOjo">
-          <img src="../../../github-brands.svg" alt="github" />
+          <FontAwesomeIcon icon={faFacebook} className="icons" />
         </Link>
       </div>
     </div>
