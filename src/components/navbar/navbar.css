@@ -8,7 +8,7 @@
 
 .navbar ul {
   display: flex;
-  gap: 25px;
+  gap: 40px;
   list-style: none;
   flex: 1;
 }
